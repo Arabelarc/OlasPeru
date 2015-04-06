@@ -1,0 +1,511 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div[class^='col-']{
+	margin-top: 14px;
+	margin-bottom: 14px;
+	div{
+		min-height:50px;
+	}
+	}
+
+*{
+  box-sizing: border box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+html, 
+body, 
+.contenedor { 
+  height: 100%;
+  width: 100%;
+   }
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom:0;
+  padding: 0;
+  text-align: center
+}
+.row-space{
+  margin-left: 82px;
+  margin-right: 82px;
+  margin-bottom: 150px;
+}
+.col-4-space{
+  padding: 23px 16px;;
+}
+
+@font-face {
+    font-family: BenchNineBold;
+    src: url(../fonts/BenchNineBold.ttf);
+}
+body{
+  font-family: "BenchNineBold";
+  width: 100%;
+}
+/*START : Contenedor Principal*/
+.clearfix:before, .clearfix:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.contenedor{ 
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+/*Comienzo de fixed*/
+.fijo{
+  position: absolute;
+  width: 57%;
+  height: 20%;
+  top: 7%;
+  left: 41%;
+  padding: 1%;
+}
+ul .lista li a {
+  float: right;
+  margin-left: 1%;
+  margin-right: 1.2%;
+  font-size: 1.5em;
+  list-style: none;
+  left: 41px;
+}
+a{
+  text-decoration: none;
+  color: #2F2D2D;
+} 
+a:hover{ 
+  text-decoration: none;
+  color: #34B6AA;
+}
+div.lista{
+  list-style: none;
+}
+/* termino de fixed*/
+.header { 
+  margin: 0 auto;
+  background-image: url(../img/wallpaper6.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 22%;
+  border-bottom: 3%;
+} 
+.header h1 {
+  position: relative;
+  text-align: right;
+  color: #333333;
+  left: 37%;
+  top: 360px;
+  z-index: 10;
+  font-size: 4em;
+}
+.header > h3 > a{
+  text-align: right;
+  position: relative;
+  left: 68%;
+  color: white;
+  top: 320px;
+  font-size: 94px;
+}
+/**/
+.grid {
+  width: 100%;
+  height: 100%;
+  margin: 90px auto;
+  border-bottom: 2px solid red;
+}
+.texto {
+  padding: 3%
+}
+div.texto > span {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color:#333333;
+}
+div .logo a img{
+  position: absolute;
+  border-radius: 100%;
+  width: 30%;
+  left: -7%;
+  top: -6%;
+}
+/**/
+.historia {
+  width: 100%;
+  margin: 0 auto;
+  padding: 72px 0;
+  background-color:  #FFFFFF;
+}
+.seis{
+  width: 50%;
+  height: 50%;
+}
+.seis > h6 {
+  font-size: 1.5em;
+  padding: 5%;
+}
+.texto {
+  padding: 3%
+}
+.texto > h4{
+  font-size: 2em;
+}
+div.texto > span {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+}
+/**/
+/*paquetes*/
+.paquetes {
+  width: 100%;
+  margin: 0 auto;
+  padding: 139px 0;
+  background-color: #E2E2E2; 
+}
+#PAQUETES .texto {
+  padding: 5%;
+}
+.caja1 {
+  margin: 0 15% 0 15%;
+}
+.contenido{
+  background-color: white;
+}
+.blanco {
+  text-align: center;
+  color: white;
+  padding: 3%;
+  font-size: 34px;
+}
+.blanco > h5 {
+  font-size: 0.3em;
+  font-weight: 800;
+  font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+.blanco > h2{
+  font-size:1em;
+  text-align: center;
+  font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+.blanco >h6{
+  font-size: 0.4em;
+  font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+.blanco p{
+  font-size: 30px;
+  text-align: center; 
+}
+.centro{
+  text-align: center;
+  color: #616161;
+  padding: 26px;
+  font-size: 31px;
+}
+.interior {
+  margin: 0 auto;
+  background-color:#333333;
+}
+p  {
+  text-align: left;
+  padding: 7px;
+  font-size: 1em;
+}
+.titulo > p {
+  text-align: center;
+  color: #616161;
+  border-bottom: 1px solid #dddddd;
+  font-family: Open Sans,Helvetica,Arial,sans-serif;
+  font-size: 0.9em;
+  padding: 9%;
+}
+.incluye > p{
+  text-align: left;
+  color: #616161;
+  border-bottom: 1px solid #dddddd;
+  font-family: Open Sans,Helvetica,Arial,sans-serif;
+  font-size: 0.9em;
+  padding: 11%;
+}
+.centro > a{
+  text-align: center;
+  color: white;
+  padding: 18px;
+  font-size: 0.4em;
+  background-color: #FCB536;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-family:Open Sans,Helvetica,Arial,sans-serif;
+}
+img{
+  width: 100%;
+}
+/*paquetes*/
+/*galeria*/
+.galeria {
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.galeria > ul > li {
+  list-style: none;
+  width: 30.9%;
+  float: left;
+  padding: 16px;
+}
+.pic {
+  position: relative;
+}
+.pic img {
+  width: 100%;
+}
+.sombra {
+  position: absolute;
+  overflow: hidden;
+  width: 92%;
+  height: 84%;
+  top: 24px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.sombra:hover {
+  background-color:rgba(0,0,0,0.5);
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+.palabra {
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  color: white;
+  visibility: hidden;
+}
+.sombra:hover .palabra{
+  visibility: visible;
+}
+span , h4 {
+  font-size: 1.5em;
+}
+.sombra1{
+  position: absolute;
+  width: 100%;
+  height: 98%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.sombra1:hover {
+  background-color:rgba(0,0,0,0.5);
+  background-image: url(../img/crewicon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: auto;
+}
+.sombra2{
+  position: absolute;
+  width: 100%;
+  height: 98%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.sombra2:hover{
+  background-color:rgba(0,0,0,0.5);
+  background-image: url(../img/tablas1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: auto;
+  position: absolute;
+}
+/*end galeria*/
+/*nuestro equipo*/
+.nosotros {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+.nosotros > ul > li {
+  list-style: none;
+  width: 31.33%;
+  float: left;
+  padding: 16px;
+}
+.pro {
+  position: relative;
+}
+.pro img {
+  width: 100%;
+}
+/*nuestro equipo*/
+.piedepagina  {
+  padding: 10px;
+  color: white;
+  background-color:black;
+  text-align: left;
+} 
+.social > a > img{
+  width: 35px;
+  height: 32px;
+  float: right;
+  margin-left: 5%;
+  position: relative;
+}
+.lower { 
+  margin: 0 auto;
+  background-image: url(../img/intosea.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 22%;
+  border-bottom: 3%;
+} 
+.lower > h3 > a {
+  color: white;
+  font-size: 3em;
+
+}
+ 
+
+/*
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; 
+  padding-top: 25px;
+  height: 0;
+  overflow: hidden;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+*/
+.contacto #contact{
+  width: 100%;
+  height: 100%;
+}
+.container-contact:before, .container-contact:after {
+  content: " ";
+  display: table;
+}
+
+.container-contact:after {
+  clear: both;
+}
+
+.row:before, .row:after {
+content: " ";
+display: table;
+}
+
+.row:after {
+clear: both;
+}
+section {
+  display: block;
+  padding: 30px 0;
+}
+
+.row {
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.col-sm-4 {
+  width: 33.33333333333333%;
+}
+
+.col-sm-4 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-sm-12{
+  float:none;
+}
+.col-sm-12 > h2{
+  font-size: 2em;
+  padding: 2%;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.form-control {
+  display: block;
+  width: 84%;
+  height: 34px;
+  padding: 10px 14px;
+  font-size: 20px;
+  line-height: 1.615;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #dddddd;
+  font-family: Open Sans,Helvetica,Arial,sans-serif;
+}     
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+.contact {
+  height: 100%;
+  margin-bottom: 15px;
+}
+
+.contact > h2 {
+  font-family: "BenchNineBold";
+  padding: 3%;
+  font-size: 30px;
+}
+.col-sm-4{
+  width: 58%;
+}
+.col-sm-12{
+  width: 58%;
+}
+.btn{
+  text-align: center;
+  color: white;
+  padding: 18px; 
+  font-size: 0.9em;
+  background-color: #FCB536;
+  border:0;
+  margin: 0;
+}
